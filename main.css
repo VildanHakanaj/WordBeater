@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* #192a56 */
+body{
+    font-size: 100%;
+    font-family: arial, san-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #273c75;
+    color: white
+}
+
+header h1{
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+main{
+    background-color: #192a56;
+    min-height: 100vh;
+}
+
+.red{
+    color: red;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container > p{
+    margin-bottom: 50px;
+}
+
+.gameOver{
+    font-size: 30px;
+    color: red;
+}
+
+.correct{
+    color: green;
+    font-size: 20px;
+}
+
+.container input{
+    width: 300px;
+    padding: 1em 3rem;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+#word{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.info{
+    font-size: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.instructions{
+    background-color: red;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #dcdde1;
+    color: #273c75;
+    margin-top: 70px;
+}
+.instructions h5{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.instructions p {
+    line-height: 2;
+}
+
